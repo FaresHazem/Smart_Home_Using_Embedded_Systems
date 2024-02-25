@@ -1,0 +1,39 @@
+/*
+ * Home_Priv.h
+ *
+ * Created: 2/22/2024 7:01:05 PM
+ *  Author: Beast
+ */ 
+
+
+#ifndef HOME_PRIV_H_
+#define HOME_PRIV_H_
+
+
+#define HOME_SYSTEM_PASS			{'1', '2', '3', '4', '5', '6', '7', '8'}
+
+ES enuHomeWelcomeScreen();
+
+ES enuHomeLoginScreen(boolean *copy_bool_pass_state);
+
+ES enuHomeMainScreen();
+
+ES enuHomeLivingRoomScreen();
+
+ES enuHomeMenuSubScreen();
+
+ES enuHomeThiefScreen();
+
+ES enuHomeLedScreen();
+static const u8 Home_au8_thief[] = {
+	0x00, 0x00, 0x1C, 0x02, 0x1F, 0x00, 0x00, 0x00,
+	0x00, 0x00, 0x00, 0x00, 0x03, 0x04, 0x08, 0x10,
+	0x00, 0x00, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04,
+	0x00, 0x00, 0x00, 0x1F, 0x0A, 0x0E, 0x00, 0x00,
+	0x00, 0x00, 0x07, 0x04, 0x12, 0x1E, 0x00, 0x00
+	};
+
+ES enuLedSystem(u8 copy_u8_led_id);
+
+
+#endif /* HOME_PRIV_H_ */

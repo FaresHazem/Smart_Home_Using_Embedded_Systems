@@ -1,0 +1,21 @@
+/*
+ * Timer0_Config.h
+ *
+ * Created: 1/24/2024 8:34:08 PM
+ *  Author: Beast
+ */ 
+
+
+#ifndef TIMER0_CONFIG_H_
+#define TIMER0_CONFIG_H_
+
+#define TIMER0_OPERATION_MODE			TIMER0_CTC_MODE
+
+#define TIMER0_SERVICE_MODE				TIMER0_INTERRUPT_MODE
+
+#define TIMER0_PRESCALER				TIMER0_PRESC_256
+
+#define TIMER0_OC0_MODE					TIMER0_OC0_DISCONNECTED
+
+
+#endif /* TIMER0_CONFIG_H_ */

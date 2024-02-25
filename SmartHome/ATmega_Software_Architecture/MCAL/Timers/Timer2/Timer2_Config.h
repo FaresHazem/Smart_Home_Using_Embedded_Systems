@@ -1,0 +1,20 @@
+/*
+ * Timer2_Config.h
+ *
+ * Created: 2/25/2024 4:19:04 PM
+ *  Author: Beast
+ */ 
+
+
+#ifndef TIMER2_CONFIG_H_
+#define TIMER2_CONFIG_H_
+
+#define TIMER2_OPERATION_MODE			TIMER2_FAST_PWM
+
+#define TIMER2_SERVICE_MODE				TIMER2_INTERRUPT_MODE
+
+#define TIMER2_PRESCALER				TIMER2_PRESC_64
+
+#define TIMER2_OC2_MODE					TIMER2_OC2_NON_INVERTED
+
+#endif /* TIMER2_CONFIG_H_ */
